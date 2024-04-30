@@ -12,3 +12,10 @@ def add_two(n: int) -> int:
     n = add_one(n)
     n = add_one(n)
     return n
+
+def count_average_salary(data: list[int]):
+                                
+    sum = 0.0
+    for d in data:
+        sum += d
+    return sum / len(data)
